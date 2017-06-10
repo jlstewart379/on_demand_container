@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Doing some work" > workdone.txt
+artifacts:
+  files:
+    - workdone.txt
+  discard-paths: yes
